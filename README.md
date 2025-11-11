@@ -33,13 +33,13 @@ The system requires a minimum 10-character Vigenère key and ensures the Affine 
 
 ## 🚀 Usage
 
-# Encrypt a message
+**Encrypt a message**
 cipher = encrypt_combined("YOUR MESSAGE", "SECURITYKEY", a=5, b=8)
 
-# Decrypt with keys
+**Decrypt with keys**
 plain = decrypt_combined(cipher, "SECURITYKEY", a=5, b=8)
 
-# Attack without keys
+**Attack without keys**
 success, details = attack_frequency_then_vigenere(cipher)
 
 
